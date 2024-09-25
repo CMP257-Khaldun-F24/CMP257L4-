@@ -1,0 +1,147 @@
+body
+{
+    background-color: FED9ED;
+    font-family: "Montserrat", serif;
+    font-optical-sizing: auto;
+    font-weight: 250;
+    font-style: normal;
+}
+
+
+h1
+{
+    font-size: 2rem;
+}
+
+
+h2
+{
+    font-size: 1.5rem;
+    
+}
+
+
+h3:hover
+{
+    text-decoration: underline;
+    font-style: italic;
+}
+
+
+h4
+{
+    font-size: 0.75rem;
+}
+
+
+.header
+{
+    background-color: FACBEA;
+}
+
+
+#welcomeText
+{
+    text-align: center;
+    padding-top:1%
+}
+
+
+.page
+{
+    background-color: FED9ED;
+}
+
+
+footer
+{
+    background-color: FACBEA; 
+    padding-left: 1%;
+}
+
+
+#slogan
+{
+    text-align: center;
+    text-decoration: underline;
+    padding-bottom: 2%;
+}
+
+
+#AUS_logo
+{
+    position: absolute;
+    top: 1.2%;
+    left: 90%;
+    width: 7%;
+    height: 12%;
+}
+
+
+.nav-link:hover
+{
+    text-decoration: underline;
+    color: blue;
+}
+
+
+.card-title
+{
+    font-weight: 1000;
+}
+
+
+.card
+{
+    background-color: FED9ED;
+}
+
+
+.dept_events
+{
+    padding-left: 25%;
+}
+
+
+.card_img
+{
+    padding-top: 5%;
+}
+
+
+#img3
+{
+    height: 50%
+}
+
+
+.caru
+{
+    color:black;
+    font-weight:1000; 
+}
+
+
+.caru_desc
+{
+    color:black;
+}
+
+
+.img1
+{
+    width: 50%;
+}
+
+
+.caru_desc2
+{
+    color:white;
+}
+
+
+.caru2
+{
+    color:white;
+}
+

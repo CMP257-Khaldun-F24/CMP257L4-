@@ -1,0 +1,175 @@
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title> AUS Campus Connect</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel = "stylesheet" href = "home_styles.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+    
+
+</head>
+
+<body>
+    <div class = "header">
+        <h1 id = "welcomeText"> Welcome to the AUS Campus Connect Platform</h1>
+        <img id = "AUS_logo"src="AUS.jpg" alt="AUS_logo" width="80" height="100">
+        <h2 id = "slogan"> Your Campus, Your Community</h2>
+          <nav id="navi" class="navbar navbar-expand-sm">
+            <div class="container-fluid">
+              <button class="navbar-toggler ms-auto" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo01" 
+              aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
+                  </table><ul class="navbar-nav ml-auto">
+                  <li class="nav-item">
+                    <a class="nav-link" href="home.html">Home</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="events.html">Events Submission</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="https://www.aus.edu">AUS Website</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </nav>
+        <hr>
+    </div>
+
+
+    <div class = "page">
+        <h2 class = "ms-2"> Upcoming Events </h2>
+        <h3 class = "ms-2"> Departmental Events </h3>
+
+        <div class = "dept_events row">
+            <div class="card " style="width: 18rem;">
+                <img class = "card_img" src="twitchlogo.jpg" class="card-img-top">
+                <div class="card-body">
+                <h5 class="card-title">Twitch - September 4th:</h5>
+                <p class="card-text">Watch 2 Excited CSE Students debate the difference between COE and CMP
+                    for 3 hours!</p>
+                </div>
+            </div>
+
+            <div class="card" style="width: 18rem;">
+                <img class = "card_img" src="treasurehunt.jpg" class="card-img-top">
+                <div class="card-body">
+                <h5 class="card-title">Treasure Hunt - September 9th:</h5>
+                <p class="card-text">Department Treasure Hunt: Searching for CSE's Students will to live!</p>
+                </div>
+            </div>
+
+            <div class="card" style="width: 18rem;">
+                <img class = "card_img" id = "img3" src="lecture1.jpg" class="card-img-top">
+                <div class="card-body">
+                <h5 class="card-title">Lecture Series - September 9th:</h5>
+                <p class="card-text">Another exciting lecture series for people who want free food!</p>
+                </div>
+            </div>
+        </div>
+        
+        <hr>
+        <h3 class = "ms-2"> Club Events </h3>
+
+        <div id="carouselExampleCaptions" class="carousel slide">
+            <div class="carousel-indicators">
+              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+            </div>
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img src="clubfair1.jpg" class="d-block w-100">
+                <div class="carousel-caption d-none d-md-block">
+                  <h5 class = "caru">Club Fair</h5>
+                  <p class = "caru_desc">September 14th - Understanding why overpopulation is frustrating.</p>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <img src="jcc.jpg" class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                  <h5 class = "caru2">Japanese Cultural Club</h5>
+                  <p class = "caru_desc2">September 11th - The Japanese Cultural Club is excited to announce its new
+                    members, none of which are Japanese!</p>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <img src="dabke.jpg" class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                  <h5 class = "caru2">Dabke Dabke Dabke</h5>
+                  <p class = "caru_desc2">September 17th - Come around the student center to see which arab nationality can
+                    make the dabke more tiring than it already is!</p>
+                </div>
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+        <hr>
+        <h2 class = "ms-2"> Student Testimonials </h2>
+        <p class = "ms-2">Hear from our students on their experience using Campus Connect!:</p>
+        <blockquote class = "ms-4">
+            Campus Connect changed my life, at first I used to severely struggled connecting to the campus, now I
+            don't! I've never felt more connected to this campus in my life. - A Biology Major
+            <br>
+        </blockquote>
+
+        <blockquote class = "ms-4">
+            Before Campus Connect I felt suicidal, but now I am able to easily connect with the services on campus
+            and run any errands I need quickly and efficiently! I am still suicidal. - A CSE Major <br>
+        </blockquote>
+        <blockquote class = "ms-4">
+            I love campus connect! It makes my already easy life even easier! With just a few clicks, everything is
+            done for me! - A Business Major <br>
+        </blockquote>
+        <hr>
+        <h2 class = "ms-2"> Contact the Campus Connect Team </h2>
+        <h3 class = "ms-2"> Ali Sajun, Platform Director </h3>
+        <ul>
+            <img src="mrali.jpg" alt="Guy in a jacket" width="80" height="100">
+            <p><cite>Platform Director </cite> </p>
+            <li> <b>Email:</b> asajun@aus.edu. </li>
+            <li> <b>Office:</b> ESB 2222. </li>
+            <li> <b>Faculty Page:</b> <a href="https://www.aus.edu/faculty/ali-sajun"> Ali Sajun</a> </li>
+        </ul>
+        <h3 class = "ms-2"> Sami Alakel, Underpaid Employee 1 </h3>
+        <ul>
+            <li> <b>Email:</b> ume1@aus.edu. </li>
+            <li> <b>Office:</b> ESB 1010a. </li>
+        </ul>
+        <h3 class = "ms-2"> Khaldun Daya, Underpaid Employee 2 </h3>
+
+        <ul>
+            <li> <b>Email:</b> b00096759@aus.edu. </li>
+            <li> <b>Office:</b> ESB 1010b. </li>
+        </ul>
+    </div>
+
+    
+    <footer>
+        <hr>
+        <h4> <strong> 2024 American University of Sharjah. All rights reserved. | Follow our <a
+                    href="https://www.facebook.com/ausharjah">Facebook</a> |<a href="https://www.youtube.com/ausharjah">
+                    YouTube
+                </a>| <a href="https://www.twitter.com/ausharjah">Twitter</a> </h4>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+
+</body>
+
+</html>

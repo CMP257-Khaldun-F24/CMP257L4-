@@ -1,0 +1,183 @@
+header {
+    background-color: #787ac2;
+
+}
+
+body {
+    background-color: #B3B7EE;
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+}
+
+form{
+    background-color: #FBF9FF;
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 1.25rem;
+
+    border: solid #aaa1b9;
+
+
+}
+
+footer {
+    background-color: #787ac2;
+
+}
+
+/* <uniquifier>: Use a unique and descriptive class name
+/* <weight>: Use a value from 100 to 900 */
+
+.main_title {
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 800;
+    font-style: normal;
+    font-size: 2.5rem;
+    text-align: center;
+}
+
+h1 {
+    font-size: 2.25rem;
+}
+
+h2 {
+    font-size: 1.75rem;
+}
+
+
+
+
+#eventName {
+    padding: 6px 10px;
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 1.0rem;
+    text-align: left;
+}
+
+#eventDate {
+    padding: 6px;
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 1.0rem;
+    text-align: center;
+}
+
+
+#eventTime {
+    padding: 6px;
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 1.0rem;
+    text-align: left;
+}
+
+#eventLocation {
+    padding: 6px;
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 1.0rem;
+    text-align: left;
+}
+
+#departments {
+    padding: 6px;
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 1.0rem;
+    text-align: left;
+    margin-bottom: 5%;
+}
+
+#description {
+    padding: 6px;
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 1.0rem;
+    text-align: left;
+}
+
+#description:hover {
+    background-color: #f5f5f5;
+}
+
+#contactInfo {
+    padding: 6px;
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 1.0rem;
+    text-align: left;
+}
+
+#contactInfo:hover {
+    background-color: #f5f5f5;
+}
+
+.btns {
+    align-items: center;
+    text-align: center;
+    padding: 5px;
+}
+
+/*/* leaving out the styling to show i used bootstrap as per lab TA request
+
+#primary{
+    background-color: #36c993;
+    border: 0.12rem solid #1e7253;
+    border-radius: 0.8em;
+    color: white;
+    padding: 8px 15px;
+    text-decoration: solid;
+    margin: 2px 2px;
+    cursor: pointer;
+
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 650;
+    font-style: normal;
+    font-size: 1.15rem;
+    text-align: center;
+}*/
+#primary:hover{
+    background-color: #1bb37b;
+}
+/* leaving out the styling to show i used bootstrap as per lab TA request
+#reset{
+    background-color: #f76f6f;
+    border: 0.12rem solid #703535;
+    border-radius: 0.8em;
+    color: white;
+    padding: 8px 15px;
+    text-decoration: solid;
+    margin: 4px 2px;
+    cursor: pointer;
+
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 650;
+    font-style: normal;
+    font-size: 1.15rem;
+    text-align: center;
+}*/
+#reset:hover{
+    background-color: #c41616;
+}
